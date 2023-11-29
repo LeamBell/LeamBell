@@ -1,0 +1,314 @@
+body{
+    margin: 0;
+
+}
+.first__page{
+    width: 100%;
+    height: 100%;
+    background-color: darkgray;
+}
+header{
+    background-color: white;
+    height: 120px;
+}
+.img__logo{
+    width: 120px;
+    height: 120px;
+}
+.img__screen{
+    width: 120px;
+    height: 117px;
+}
+.logo{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+}
+.logo__menu{
+  margin-right: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav__item{
+  text-decoration: none;
+  font-weight: 700;
+    color: black;
+    font-size: 30px;
+    margin: 0 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: color 0.3s linear;
+}
+.nav__item:hover{
+  color: #969696;
+}
+.nav__item1{
+  text-decoration: none;
+  font-weight: 700 ;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #000000;
+  position: relative;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  transition: color 0.3s linear;
+}
+.nav__item1:hover{
+  color: #969696;
+}
+.nav__item2{
+  text-decoration: none;
+  font-weight: 700;
+  padding: 3px;
+  display: inline-block;
+  border-radius: 5px;
+  color: #000000;
+  position:static;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  transition: color 0.3s linear;
+}
+.nav__item2:hover{
+  color: #969696;
+}
+.accordion-content {
+  display: none;
+  background-color: #747171;
+  border-radius: 5px;
+  width: 17%;
+  height: 5%;
+  z-index: 1;
+  margin-left: 78%;
+}
+.second__page{
+    height: 600px;
+    width: 100%;
+    background-color:#505050;
+    margin-top: 18px;
+}
+
+*{box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+img {
+  margin-top: 5px;
+  width: 100%;
+  height: 590px;
+}
+.text {
+  color: #fff;
+  font-size: 30px;
+  position: absolute;
+  bottom: 10%;
+  left: 5%; 
+  width: auto;
+  text-align: left; 
+  background-color:  rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+
+}
+
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Стили для точек (индикаторов) */
+.dot-container {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  margin-top: -40px;
+  bottom: 0;
+  z-index: 2;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+h2, p {
+  margin: 5px 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.thrid_page {
+  background-color: rgb(209, 189, 189);
+  text-align: center;
+  padding: 20px;
+}
+.world_of_glock{
+  text-align: center;
+  margin-top: 20px ;
+  width: auto;
+  height: 400px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+.container{
+background-color: rgb(255, 255, 255);
+border: 1px solid #393b39;
+    padding: 9px;
+    margin: 15px;
+    text-align: center;
+    width: 16%;
+    height: 60%;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out;
+    margin-top: -260px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .map{
+    width: 80%;
+    height: 50%;
+    margin-left: 365px;
+    margin-top: -225px;
+  }
+  .many_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .container1{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #393b39;
+        padding: 9px;
+        margin: 15px;
+        text-align: center;
+        width:35%; 
+        height: 60% ;
+        box-sizing: border-box;
+        transition: transform 0.3s ease-in-out;
+        margin-top: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      }
+.num{
+  color: #000000;
+  text-decoration: none;
+  font-weight:700 ;
+  transition: color 0.3s linear;
+}
+.num:hover{
+  color: #747171;
+}
+/* Main Footer */
+footer .main-footer{ padding: 20px 0; background: #252525;}
+footer ul{ padding-left: 0; list-style: none;}
+
+/* Copy Right Footer */
+.footer-copyright { background: #ffffff; padding: 5px 0;}
+.footer-copyright .logo { display: inherit;}
+.footer-copyright nav { float: right; margin-top: 5px;}
+.footer-copyright nav ul { list-style: none; margin: 0; padding: 0;}
+.footer-copyright nav ul li { border-left: 1px solid #505050; display: inline-block; line-height: 12px; margin: 0; padding: 0 8px;}
+.footer-copyright nav ul li a{ color: #969696;}
+.footer-copyright nav ul li:first-child { border: medium none; padding-left: 0;}
+.footer-copyright p { color: #969696; margin: 2px 0 0;}
+
+/* Footer Top */
+.footer-top{ background: #252525; padding-bottom: 30px; margin-bottom: 30px; border-bottom: 3px solid #222;}
+
+/* Footer transparent */
+footer.transparent .footer-top, footer.transparent .main-footer{ background: transparent;}
+footer.transparent .footer-copyright{ background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3) ;}
+
+/* Footer light */
+footer.light .footer-top{ background: #f9f9f9;}
+footer.light .main-footer{ background: #f9f9f9;}
+footer.light .footer-copyright{ background: none repeat scroll 0 0 rgba(255, 255, 255, 0.3) ;}
+
+/* Footer 4 */
+.footer- .logo { display: inline-block;}
+
+/*====================  
+  Widgets  
+====================== */
+.widget{ padding: 20px; margin-bottom: 40px;}
+.widget.widget-last{ margin-bottom: 0px;}
+.widget.no-box{ padding: 0; background-color: transparent; margin-bottom: 40px;
+  box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none;}
+.widget.subscribe p{ margin-bottom: 18px;}
+.widget li a{ color: #eedecd;}
+.widget li a:hover{ color: #4b92dc;}
+.widget-title {margin-bottom: 20px;}
+.widget-title span {background: #839FAD none repeat scroll 0 0;display: block; height: 1px;margin-top: 25px;position: relative;width: 20%;}
+.widget-title span::after {background: inherit;content: "";height: inherit; position: absolute;top: -4px;width: 50%;}
+.widget-title.text-center span,.widget-title.text-center span::after {margin-left: auto;margin-right:auto;left: 0;right: 0;}
+.widget .badge{ float: right; background: #7f7f7f;}
+
+.typo-light h1,  
+.typo-light h2,  
+.typo-light h3,  
+.typo-light h4,  
+.typo-light h5,  
+.typo-light h6,
+.typo-light p,
+.typo-light div,
+.typo-light span,
+.typo-light small{ color: #fff;}
+
+ul.social-footer2 { margin: 0;padding: 0; width: auto;}
+ul.social-footer2 li {display: inline-block;padding: 0;}
+ul.social-footer2 li a:hover {background-color:#ede0d3;}
+ul.social-footer2 li a {display: block; height:30px;width: 30px;text-align: center;}
+.btn{background-color: #000000; color:#fff;}
+.btn:hover, .btn:focus, .btn.active {background: #4b92dc;color: #fff;
+-webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+-moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+-ms-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+-o-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+-webkit-transition: all 250ms ease-in-out 0s;
+-moz-transition: all 250ms ease-in-out 0s;
+-ms-transition: all 250ms ease-in-out 0s;
+-o-transition: all 250ms ease-in-out 0s;
+transition: all 250ms ease-in-out 0s;
+
+}

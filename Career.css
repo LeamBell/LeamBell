@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+}
+header{
+    background-image:url(GLOCK_Professional-Training-Banner1920x480.png) ;
+    color: aliceblue;
+    width: auto;
+    height: 100px;
+    text-align: center;
+    margin-bottom: -50px;
+    padding: 1em;
+}
+.back-button {
+    background-color: #1b1f1b;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    display: flex-box;
+    margin-right:80%;
+    transition: color 0.3s linear;
+}
+.back-button:hover {
+    background-color: #404140;
+}
+
+.second__page{
+        width: auto;
+        height:500px;
+        margin-top: 100px;
+        max-width: 1000px;
+        padding-left: 450px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 14;
+        text-align: center;
+}
+.text{
+    text-align: center;
+}
+.column{
+  text-align: center;
+}
+.nav__item{
+    max-width: 183px;
+    color: blue;
+    font-size: 16px;
+    margin: 0 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+.thrid__pade{
+    width: 100%;
+    max-width: 1000px;
+    height: 500px;
+    margin: 0;
+}
+
+.text1{
+   margin-right: -10px;
+    margin-top: 570px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}

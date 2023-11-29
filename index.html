@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width={device-width}, initial-scale=1.0">
+    <title>Glock Perfection.com</title>
+    <link rel="stylesheet" href="style22.css">
+</head>
+<body>
+    <div class="first__page">
+        <header>
+            <div class="logo__menu">
+                <div class="logo">
+                    <img src="glocklogo.png" alt=""class="img__screen">
+                </div>
+                <nav>
+                    <a href="Page1.html" class="nav__item">Pistol & Buy</a>
+                    <a href="page3.html" class="nav__item">Brand Story</a>
+                    <a href="Work & Education.html" class="nav__item">Career & Education</a>
+                    <a href="#" class="nav__item1" onclick="toggleAccordion()">Glock P.P. & S.R.</a>
+                    <div class="accordion-content" id="accordionContent">
+                      <p>
+                      <a href="GunSafe.html" class="nav__item2">Glock Partner Programm</a>
+                      <a href="Rules.html" class="nav__item2">Gun safety rules</a>
+                      </p>
+                    </div>
+                    <a href="Unit.html" class="nav__item">Newsletter Sign-up</a>
+                </nav>
+              </div>
+              <script>
+                function toggleAccordion() {
+                  var content = document.getElementById('accordionContent');
+                  content.style.display = (content.style.display === 'block') ? 'none' : 'block';
+                }
+              </script>
+        </header>
+    </div>
+    <div class="second__page">
+      <div class="slideshow-container">
+        <div class="mySlides">
+          <img src="glockgenslide.png" alt="Slide 1">
+          <div class="text">A LEGENDARY WEAPON WITH A LONG STORY</div>
+        </div>
+      
+        <div class="mySlides">
+          <img src="glockstyledesign.png" alt="Slide 2">
+          <div class="text">STYLICH DESIGN, ABSOLUTE POWER</div>
+        </div>
+      
+        <div class="mySlides">
+          <img src="shootglock3.png" alt="Slide 3">
+          <div class="text">EASY TO USE AND PRACTICAL IN EVERYTHING</div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+      <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+      
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+      
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+      
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) { slideIndex = 1 }
+          if (n < 1) { slideIndex = slides.length }
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
+        }
+      </script>
+      </div>
+      <div class="thrid__page">
+        <div class="world_of_glock">
+        <h2>World of GLOCK</h2>
+        <P>Get in touch with GLOCK around the globe!</P>
+        </div>
+
+        <div class="container">
+          <h2>Glock Europe, Africa</h2>
+          <h2>Glock Ges.M.b.H.</h2>
+          <p>Gaston Glock-Platz 1</p>
+          <p>A-2232 Deutsch-Wagram</p>
+          <p>AUSTRIA</p>
+          <p class="num" href="#">Tel. +43 (0) 2247 90300-0</p>
+        </div>
+        <img src="GLOCKWorldMap.png" class="map">
+        <div class="many_container">
+        <div class="container1">
+          <h2>Asia Pacific</h2>
+          <h2>GLOCK International FZE</h2>
+          <p>West Wing 3 - Office 501</p>
+          <p>Dubai Airport Free Zone</p>
+          <p>UNITED ARAB EMIRATES</p>
+          <p class="num" href="#">Tel. +971 - 4 - 299 5779 </p>
+        </div>
+        <div class="container1">
+        <h2>Latin America & Caribbean</h2>
+        <h2>GLOCK International S.A.</h2>
+        <p>Edificio PH Obarrio 60, Local 15-B</p>
+        <p>Calle 60 Este 6B, Barrio Obarrio</p>
+        <p>Ciudad de Panamá, PANAMÁ</p>
+        <p class="num" href="#">Tel. +507 3866 186</p>
+        </div>
+        <div class="container1">
+          <h2>Middle East</h2>
+          <h2>GLOCK International FZE</h2>
+          <p>West Wing 3 - Office 501</p>
+          <p>Dubai Airport Free Zone</p>
+          <p>UNITED ARAB EMIRATES</p>
+          <p class="num" href="#">Tel. +971 - 4 - 299 5779</p>
+          </div>
+          <div class="container1">
+            <h2>USA & Canada</h2>
+            <h2>GLOCK Inc.</h2>
+            <p>6000 Highlands Parkway</p>
+            <p>Smyrna, GA 30082</p>
+            <p>U.S.A.</p>
+            <p class="num" href="#">Tel. +1 770 - 432 1202</p>
+            </div>
+          </div>
+      </div>
+    </script>
+<footer id="footer" class="footer-1">
+      <div class="main-footer widgets-dark typo-light">
+      <div class="container5">
+      <div class="row">
+         
+      <div class="col-xs-12 col-sm-6 col-md-3">
+      <div class="widget subscribe no-box">
+      <h5 class="widget-title">Glock Perfection<span></span></h5>
+      <p>Glock pistols are absurdly simple for a modern firearm. You can take a Glock down to its parts and pieces with nothing more than a punch. Reflecting the gun's simplicity, just an eight-hour class makes you an official Glock armorer. This simplicity leads to a very high level of reliability.</p>
+      </div>
+      </div>
+      
+      <div class="col-xs-12 col-sm-6 col-md-3">
+      <div class="widget no-box">
+      <h5 class="widget-title">Quick Links<span></span></h5>
+      <ul class="thumbnail-widget">
+      <li>
+      <div class="thumb-content"><a href="#.">Glock Distributors</a></div>  
+      </li>
+      <li>
+      <div class="thumb-content"><a href="#.">General contact request</a></div>  
+      </li>
+      <li>
+      <div class="thumb-content"><a href="#.">Technical service and support</a></div>  
+      </li>
+      <li>
+      <div class="thumb-content"><a href="#.">About</a></div>  
+      </li>
+      </ul>
+      </div>
+      </div>
+      
+      <div class="col-xs-12 col-sm-6 col-md-3">
+      <div class="widget no-box">
+      <h5 class="widget-title">Get Started<span></span></h5>
+      <a class="btn" href="Career.html" target="_blank">JOIN US</a>
+      </div>
+      </div>
+      
+      <div class="col-xs-12 col-sm-6 col-md-3">
+      
+      <div class="widget no-box">
+      
+      <p><a href="mailto:info@domain.com" title="glorythemes">info@domain.com</a></p>
+    
+      </div>
+      </div>
+      
+      </div>
+      </div>
+      </div>
+         
+      <div class="footer-copyright">
+      <div class="container5">
+      <div class="row">
+      <div class="col-md-12 text-center">
+      <p>Glock Perfection Inc© 2022. All rights reserved.</p>
+      </div>
+      </div>
+      </div>
+      </div>
+      </footer>
+    
+    
+
+
+</body>
+</html>

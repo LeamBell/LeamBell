@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+}
+header{
+    background-image: url(GLOCK_Professional-Training-Banner1920x480.png);
+    border:1px double #1b1f1b;
+    color: aliceblue;
+    width: auto;
+    height: 10%;
+    text-align: center;
+    margin-bottom: -50px;
+    padding: 1em;
+}
+.back-button {
+    background-color: #1b1f1b;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-decoration: none;
+    margin-bottom: 30px;
+    display: flex-box;
+    margin-right: 80% ;
+    transition: color 0.3s linear;
+}
+.back-button:hover {
+    background-color: #404140;
+  }
+.page1{
+    border: 1px double #1b1f1b;
+    height: auto;
+    width: auto;
+    background-color:#505050;
+    margin-top: 50px;
+}
+.edu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.container{
+    background-color: azure;
+    border:1px double #1b1f1b;
+        padding: 9px;
+        margin: 15px;
+        text-align: center;
+        width: calc(60% - 180px);
+        height: calc(70% - 100px);
+        box-sizing: border-box;
+        transition: transform 0.3s ease-in-out;
+        margin-top: 40px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.img1{
+    width: 60%;
+    height: 20%;
+}
+.container2{
+    background-color: azure;
+    border: 1px double #1b1f1b;
+        padding: 9px;
+        margin: 15px;
+        text-align: center;
+        width: calc(60% - 180px);
+        height: calc(70% - 100px);
+        box-sizing: border-box;
+        transition: transform 0.3s ease-in-out;
+        margin-top: 40px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container3{
+    background-color: azure;
+    border: 1px double #1b1f1b;
+        padding: 9px;
+        margin: 15px;
+        text-align: center;
+        width: calc(60% - 180px);
+        height: calc(70% - 100px);
+        box-sizing: border-box;
+        transition: transform 0.3s ease-in-out;
+        margin-top: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button {
+    background-color: #313631;
+    color: white;
+    width: 60%;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button1{
+    background-color:#313631;
+    color: white;
+    width: 60%;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.button2{
+    color:white;
+    background-color: #313631;
+    width: 60%;
+    padding: 10px 20px;
+    font-size:16px ;
+}
+
