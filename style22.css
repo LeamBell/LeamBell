@@ -42,46 +42,6 @@ header{
 .nav__item:hover{
   color: #969696;
 }
-.nav__item1{
-  text-decoration: none;
-  font-weight: 700 ;
-  display: inline-block;
-  border-radius: 5px;
-  cursor: pointer;
-  color: #000000;
-  position: relative;
-  font-size: 30px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  transition: color 0.3s linear;
-}
-.nav__item1:hover{
-  color: #969696;
-}
-.nav__item2{
-  text-decoration: none;
-  font-weight: 700;
-  padding: 3px;
-  display: inline-block;
-  border-radius: 5px;
-  color: #000000;
-  position:static;
-  cursor: pointer;
-  font-size: 14px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  transition: color 0.3s linear;
-}
-.nav__item2:hover{
-  color: #969696;
-}
-.accordion-content {
-  display: none;
-  background-color: #747171;
-  border-radius: 5px;
-  width: 17%;
-  height: 5%;
-  z-index: 1;
-  margin-left: 78%;
-}
 .second__page{
     height: 600px;
     width: 100%;
