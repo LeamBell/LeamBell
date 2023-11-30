@@ -33,7 +33,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     justify-content: space-between;
 }
 .product {
-    background-color:lightslategray;
+    background-color:  #ddd;
     border: 1px double #ccc;
     padding: 10px 10px;
     margin: 15px;
