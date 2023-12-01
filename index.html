@@ -74,22 +74,21 @@
           }
           slides[slideIndex - 1].style.display = "block";
           dots[slideIndex - 1].className += " active";
-            let intervalId;
-
-function startAutoSlide() {
-intervalId = setInterval(function() {
-plusSlides(1);
-}, 4000);
-}
-startAutoSlide();
-document.addEventListener("visibilitychange", function() {
-if (document.visibilityState === "visible") {
-startAutoSlide();
-} else {
-clearInterval(intervalId);
-}
-});
-        }
+        let intervalId;
+          function startAutoSlide() {
+           intervalId = setInterval(function() {
+                 plusSlides(1);
+                 }, 4000);
+                 }
+             startAutoSlide();
+             document.addEventListener("visibilitychange", function() {
+             if (document.visibilityState === "visible") {
+             startAutoSlide();
+             } else {
+            clearInterval(intervalId);
+            }
+             });
+             }
       </script>
       </div>
       <div class="thrid__page">
