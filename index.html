@@ -49,46 +49,49 @@
         <span class="dot" onclick="currentSlide(3)"></span>
       </div>
       <script>
-        let slideIndex = 1;
-        showSlides(slideIndex);
-      
-        function plusSlides(n) {
-          showSlides(slideIndex += n);
-        }
-      
-        function currentSlide(n) {
-          showSlides(slideIndex = n);
-        }
-      
-        function showSlides(n) {
-          let i;
-          let slides = document.getElementsByClassName("mySlides");
-          let dots = document.getElementsByClassName("dot");
-          if (n > slides.length) { slideIndex = 1 }
-          if (n < 1) { slideIndex = slides.length }
-          for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-          }
-          for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex - 1].style.display = "block";
-          dots[slideIndex - 1].className += " active";
-          let intervalId;
-          function startAutoSlide() {
-           intervalId = setInterval(function() {
-                 plusSlides(1);
-                 }, 5000);
-                 }
-             startAutoSlide();
-             document.addEventListener("visibilitychange", function() {
-             if (document.visibilityState === "visible") {
-             startAutoSlide();
-             } else {
-            clearInterval(intervalId);
-            }
-             });
-             }
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) { slideIndex = 1 }
+  if (n < 1) { slideIndex = slides.length }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex - 1].style.display = "block";
+  dots[slideIndex - 1].className += " active";
+}
+// Функция автоматического перелистывания по таймеру
+let intervalId;
+
+function startAutoSlide() {
+intervalId = setInterval(function() {
+plusSlides(1);
+}, 4000);
+}
+// Функция запуска автоматического слайдера
+startAutoSlide();
+document.addEventListener("visibilitychange", function() {
+if (document.visibilityState === "visible") {
+startAutoSlide();
+} else {
+clearInterval(intervalId);
+}
+});
       </script>
       </div>
       <div class="thrid__page">
