@@ -3,7 +3,7 @@ body{
 }
 header{
     background-image: url(GLOCK_Professional-Training-Banner1920x480.png);
-    border:1px double #1b1f1b;
+    border:1px solid #1b1f1b;
     color: aliceblue;
     width: auto;
     height: 10%;
@@ -26,10 +26,10 @@ header{
     background-color: #404140;
   }
 .page1{
-    border: 1px double #1b1f1b;
+    border: 1px solid #1b1f1b;
     height: auto;
     width: auto;
-    background-color:#505050;
+    background-color: #F8F8FF;
     margin-top: 50px;
 }
 .edu {
@@ -38,8 +38,8 @@ header{
     justify-content: space-evenly;
 }
 .container{
-    background-color: azure;
-    border:1px double #1b1f1b;
+    background-color: #FFFFFF;
+    border:1px solid #1b1f1b;
         padding: 9px;
         margin: 15px;
         text-align: center;
@@ -55,8 +55,8 @@ header{
     height: 20%;
 }
 .container2{
-    background-color: azure;
-    border: 1px double #1b1f1b;
+    background-color: #FFFFFF;
+    border: 1px solid #1b1f1b;
         padding: 9px;
         margin: 15px;
         text-align: center;
@@ -68,8 +68,8 @@ header{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .container3{
-    background-color: azure;
-    border: 1px double #1b1f1b;
+    background-color: #FFFFFF;
+    border: 1px solid #1b1f1b;
         padding: 9px;
         margin: 15px;
         text-align: center;
