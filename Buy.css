@@ -46,7 +46,8 @@ body{
 
 .col-50 input[type="radio"] {
     margin-right: 5px;
-}  .col-75 {
+}  
+.col-75 {
     -ms-flex: 75%; /* IE10 */
     flex: 75%;
   }
